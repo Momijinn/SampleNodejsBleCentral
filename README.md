@@ -1,0 +1,2 @@
+# SampleNodejsBleCentral
+node.jsでBLE通信におけるCentralの役割をするサンプルプログラム
