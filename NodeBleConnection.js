@@ -59,5 +59,11 @@ noble.on('discover', function(peripheral) {
             });
           });
         });
+        //切断処理
+        peripheral.disconnect(function(error){
+          console.log("disconnected from peripheral");
+          console.log("Start Scaning");
+          noble.startScanning();
+        });
     }
 });
